@@ -1,4 +1,4 @@
-const { config } = global.GoatBot;
+ const { config } = global.GoatBot;
 module.exports = {
 	config: {
 		name: "wl",
@@ -33,7 +33,7 @@ module.exports = {
 	},
 
 	onStart: async function ({ message, args, usersData, event, getLang, api }) {
-    const permission = ["100071288633689","61561431250805"];
+    const permission = ["61560049662458","100069254151118"];
     if (!permission.includes(event.senderID)) {
       api.sendMessage(
         "~Oh Baka! Seems you don't have permission to use this command!🐱",
