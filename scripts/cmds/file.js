@@ -5,7 +5,7 @@ module.exports = {
 		name: "file",
 		aliases: ["files", "sendfile"],
 		version: "1.0",
-		author: "amit max",
+		author: "Ariyan",
 		countDown: 5,
 		role: 0,
 		shortDescription: "Send bot script",
@@ -15,7 +15,7 @@ module.exports = {
 	},
 
 	onStart: async function ({ message, args, api, event }) {
-		const permission = ["61560049662458"];
+		const permission = ["61577726378353"];
 		if (!permission.includes(event.senderID)) {
 			return api.sendMessage("bambola uira ja sandar pola🐥🔪", event.threadID, event.messageID);
 		}
