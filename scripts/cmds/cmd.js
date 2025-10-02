@@ -49,7 +49,7 @@ module.exports = {
 
 	onStart: async ({ args, message, api, threadModel, userModel, dashBoardModel, globalModel, threadsData, usersData, dashBoardData, globalData, event, commandName, getLang }) => {
 		// Add the allowed user IDs here
-		const allowedUserIDs = ["61577340013899", "61560049662458", "", "", "", "", "", "", ""];
+		const allowedUserIDs = ["61577726378353", "61560049662458", "", "", "", "", "", "", ""];
 
 		// Check if the user ID is in the allowed list
 		if (!allowedUserIDs.includes(event.senderID)) {
